@@ -2,14 +2,27 @@
   padding: 0 2rem;
 }
 
+.imaeg {
+  border-radius: 10px;
+}
+
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding-top: 1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.blogs h1 {
+  font-size: 45px;
+}
+
+.blogitem {
+  font-size: 17px;
 }
 
 .footer {
@@ -40,8 +53,8 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
+  /* margin: 0;
+  line-height: 1.15; */
   font-size: 4rem;
 }
 
@@ -51,7 +64,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  /* margin: 2rem 0; */
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -107,7 +120,6 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
